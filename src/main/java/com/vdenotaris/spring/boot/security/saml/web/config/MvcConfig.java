@@ -54,6 +54,7 @@ public class MvcConfig implements WebMvcConfigurer {
     public void forTest(){
 		System.out.println("Adding somthing !#!#!");
 		System.out.println("Adding somthing !!!");
+		System.out.println("Adding somthing !!!");
 	}
 
 }
