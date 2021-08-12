@@ -107,6 +107,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements I
 	private MultiThreadedHttpConnectionManager multiThreadedHttpConnectionManager;
 
 	public void init() {
+        System.out.println("WebSecurityConfig init");
 		this.backgroundTaskTimer = new Timer(true);
 		this.multiThreadedHttpConnectionManager = new MultiThreadedHttpConnectionManager();
 	}
