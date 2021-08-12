@@ -51,4 +51,8 @@ public class MvcConfig implements WebMvcConfigurer {
     		argumentResolvers.add(currentUserHandlerMethodArgumentResolver);
     }
 
+    public void forTest(){
+    	System.out.println("Adding somthing !!!");
+	}
+
 }
